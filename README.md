@@ -78,7 +78,7 @@ Brightcove breaks up its Media API calls between Videos (read/write) and Playlis
 
 **[Video Write API][media-docs-video-write]**
 
-+ _(not yet implemented)_
++ <code><strong>createVideo</strong> (videoFilePath, options, _[callback]_)</code> 
 
 **[Playlist Read API][media-docs-playlist-read]**
 
@@ -194,7 +194,8 @@ All events are emitted with two arguments: `err, jsonResponse`.  Following node 
 	- `find_playlist_by_reference_id`
 	- `find_playlists_by_reference_ids`
 
-- Video Write API _(not yet implemented)_
+- Video Write API 
+	- 'create_video'
 
 - Playlist Write API
 	- `create_playlist`
